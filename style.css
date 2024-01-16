@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+  --color-131921: #131921;
+  --color-3b4149: #3b4149;
+  --color-febd69: #febd69;
+  }
+  body {
+    font-family: 'Kanit', sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color : inherit;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    border-color: inherit;
+  }
+  
+  /* header part*/
+  .header-top-strip{
+  background-color: var(--color-131921);
+  border-bottom: 1px solid var(--color-3b4149);
+  }
+  
+  .dropdown-menu {
+    background-color: var(--color-131921);
+  }
+  .header-upper {
+    background-color: var(--color-131921);
+    border-bottom: 1px solid var(--color-3b4149);
+  }
+  
+  .header-upper .input-group-text{
+  background-color: var(--color-febd69);
+  border-radius: 20px 20px 20px 20px;
+  }
+  /* header part end*/
+  
+  /* Footer part*/
+  
+  footer {
+    background-color: var(--color-131921);
+  }
+  footer:not(:first-child){
+    border-top: 1px solid var(--color-3b4149);
+  }
+  /* Footer part end*/
+  
+  /*Home*/
+  
+  .home-wrapper-1{
+    background-color: var(--color-131921);
+    min-height: 80vh;
+  }
+  
+  .card-wrapper{
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 15px;
+  }
+  
+  .product-card{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .product-card .product-image {
+    height: 270px;
+  }
+  
+  .product-card .product-image img{
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+   }
+
+   .product-card .product-details {
+    overflow: hidden;
+    border-top: 1px solid var(--color-3b4149)
+  }
+   
+  .product-card .product-details h6{
+    font-size: 14px;
+  }
+  
+  .product-card .product-details h5{
+    font-size: 15px;
+  }
+  
+  
+  .product-card .product-details p.price{
+    font-size: 16px;
+  }
+  
+  .product-name {
+    -webkit-line-clamp: 1;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .product-title{
+    -webkit-line-clamp: 2;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .rec-wrapper{
+    background-color: var(--color-131921);
+  }
+
+  .account-page{
+    border-radius: 10px;
+    background-color: white;
+  }
+  /*Home end*/
+
+
+  /* dean code*/
+  img {
+    max-width: 70%;
+    height: auto;
+  }
+.form-control{
+  border-radius: 20px 20px 20px 20px;
+}
+
+/*  */
+
